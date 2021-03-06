@@ -2,6 +2,7 @@
 
 import React from "react";
 import Card from "react-bootstrap/Card";
+import "./vehicles.css";
 
 export default function VehicleProfile({
   brand,
@@ -14,7 +15,7 @@ export default function VehicleProfile({
   count,
 }) {
   return (
-    <div>
+    <div className="vehicle-card">
       <Card style={{ width: "18rem" }}>
         <h3>Brand: {brand}</h3>
         <p>Model: {model}</p>

@@ -3,4 +3,9 @@
 .vehicles-list {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  text-align: justify;
+}
+.vehicle-card {
+  padding: 15px;
+  margin: 10px;
 }

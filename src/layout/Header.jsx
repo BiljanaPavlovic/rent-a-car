@@ -9,7 +9,7 @@ export default function Header() {
       <section class="showcase">
         <div class="video-container">
           <video
-            src="/img/video.mp4"
+            src="/rent-a-car/img/video.mp4"
             className="mov"
             autoPlay
             muted
@@ -18,6 +18,11 @@ export default function Header() {
         </div>
 
         <div class="content">
+          <img
+            src="/rent-a-car/img/logo.png"
+            alt="rent-a-car logo"
+            className="logo-img"
+          />
           <h1>RENT - A - CAR</h1>
           <h3>LIKE A BOSS</h3>
         </div>
