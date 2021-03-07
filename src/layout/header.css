@@ -48,6 +48,7 @@ h1 {
 
 .content {
   z-index: 10;
+  width: 30%;
 }
 .logo-img {
   width: 8vw;

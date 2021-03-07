@@ -10,7 +10,7 @@ export default function VehicleAdding() {
   return (
     <div>
       <Container>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "30rem" }}>
           <Form>
             <Form.Row>
               <Form.Control type="text" placeholder="Normal text" />

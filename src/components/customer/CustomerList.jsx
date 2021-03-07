@@ -1,27 +1,40 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./customers.css";
-import CustomerAdding from "./CustomerAdding";
 import CustomerProfile from "./CustomerProfile";
+import { getCustomers } from "../../services";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 export default function CustomerList() {
+  const [customer, setCustomer] = useState([]);
+
+  useEffect(() => {
+    getCustomers().then((data) => {
+      console.log(data);
+      setCustomer(data);
+    });
+  }, []);
+
   return (
     <div>
       <h2>Customers</h2>
       <div className="customers-list">
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
-        <CustomerProfile name="John Dou" email="john@doy.com" phone="123456" />
+        {customer.map((customer) => {
+          return (
+            <CustomerProfile
+              key={customer.id}
+              name={customer.name}
+              email={customer.email}
+              phone={customer.phone}
+            />
+          );
+        })}
       </div>
-      <CustomerAdding />
+      <Link to="/addcustomer">
+        <Button variant="secondary">ADD CUSTOMER</Button>
+      </Link>
     </div>
   );
 }

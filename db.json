@@ -1,0 +1,61 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "brand" : "BMW",
+      "model": "xy",
+      "year": "2020",
+      "type": "xyxy223",
+      "seats": "5",
+      "image": "https://www.bmw-stefanovic.rs/media/series/series_3/bmw-3-series-sedan.png",
+      "price": 200,
+      "count": 5
+    
+    },
+    {
+      "id": 1,
+      "brand" : "BMW",
+      "model": "xy",
+      "year": "2020",
+      "type": "xyxy223",
+      "seats": "5",
+      "image": "https://www.bmw-stefanovic.rs/media/series/series_3/bmw-3-series-sedan.png",
+      "price": 200,
+      "count": 5
+    
+    },
+    {
+      "id": 1,
+      "brand" : "BMW",
+      "model": "xy",
+      "year": "2020",
+      "type": "xyxy223",
+      "seats": "5",
+      "image": "https://www.bmw-stefanovic.rs/media/series/series_3/bmw-3-series-sedan.png",
+      "price": 200,
+      "count": 5
+    
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Pera",
+      "email": "pera@p.com",
+      "phone": 12345
+    },
+    {
+      "id": 2,
+      "name": "Jova",
+      "email": "jova@p.com",
+      "phone": 12345
+    }
+  ],
+  "events": [{
+    "id": 1,
+    "startDate": "06.03",
+    "endDate": "07.03.",
+    "vehicle": "BMW",
+    "customer": "Pera"
+  }]
+}

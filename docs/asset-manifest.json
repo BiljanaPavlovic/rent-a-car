@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/rent-a-car/static/css/main.808d9e2c.chunk.css",
-    "main.js": "/rent-a-car/static/js/main.a8990b96.chunk.js",
-    "main.js.map": "/rent-a-car/static/js/main.a8990b96.chunk.js.map",
-    "runtime-main.js": "/rent-a-car/static/js/runtime-main.857d4612.js",
-    "runtime-main.js.map": "/rent-a-car/static/js/runtime-main.857d4612.js.map",
+    "main.css": "/rent-a-car/static/css/main.9246855c.chunk.css",
+    "main.js": "/rent-a-car/static/js/main.1472840b.chunk.js",
+    "main.js.map": "/rent-a-car/static/js/main.1472840b.chunk.js.map",
+    "runtime-main.js": "/rent-a-car/static/js/runtime-main.a3349ad5.js",
+    "runtime-main.js.map": "/rent-a-car/static/js/runtime-main.a3349ad5.js.map",
     "static/css/2.fabbef47.chunk.css": "/rent-a-car/static/css/2.fabbef47.chunk.css",
-    "static/js/2.8dbc3801.chunk.js": "/rent-a-car/static/js/2.8dbc3801.chunk.js",
-    "static/js/2.8dbc3801.chunk.js.map": "/rent-a-car/static/js/2.8dbc3801.chunk.js.map",
-    "static/js/3.8afd1339.chunk.js": "/rent-a-car/static/js/3.8afd1339.chunk.js",
-    "static/js/3.8afd1339.chunk.js.map": "/rent-a-car/static/js/3.8afd1339.chunk.js.map",
+    "static/js/2.d3b55263.chunk.js": "/rent-a-car/static/js/2.d3b55263.chunk.js",
+    "static/js/2.d3b55263.chunk.js.map": "/rent-a-car/static/js/2.d3b55263.chunk.js.map",
+    "static/js/3.04e737e6.chunk.js": "/rent-a-car/static/js/3.04e737e6.chunk.js",
+    "static/js/3.04e737e6.chunk.js.map": "/rent-a-car/static/js/3.04e737e6.chunk.js.map",
     "index.html": "/rent-a-car/index.html",
     "static/css/2.fabbef47.chunk.css.map": "/rent-a-car/static/css/2.fabbef47.chunk.css.map",
-    "static/css/main.808d9e2c.chunk.css.map": "/rent-a-car/static/css/main.808d9e2c.chunk.css.map",
-    "static/js/2.8dbc3801.chunk.js.LICENSE.txt": "/rent-a-car/static/js/2.8dbc3801.chunk.js.LICENSE.txt"
+    "static/css/main.9246855c.chunk.css.map": "/rent-a-car/static/css/main.9246855c.chunk.css.map",
+    "static/js/2.d3b55263.chunk.js.LICENSE.txt": "/rent-a-car/static/js/2.d3b55263.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.857d4612.js",
+    "static/js/runtime-main.a3349ad5.js",
     "static/css/2.fabbef47.chunk.css",
-    "static/js/2.8dbc3801.chunk.js",
-    "static/css/main.808d9e2c.chunk.css",
-    "static/js/main.a8990b96.chunk.js"
+    "static/js/2.d3b55263.chunk.js",
+    "static/css/main.9246855c.chunk.css",
+    "static/js/main.1472840b.chunk.js"
   ]
 }
