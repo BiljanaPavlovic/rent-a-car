@@ -3,8 +3,14 @@
 .App {
   text-align: center;
   font-family: "Staatliches", cursive;
+  background-color: whitesmoke;
 }
+
 h2 {
   margin: 30px;
   padding: 30px;
+  text-shadow: 2px 2px 5px gray;
+}
+button {
+  box-shadow: 5px 5px 2px grey;
 }

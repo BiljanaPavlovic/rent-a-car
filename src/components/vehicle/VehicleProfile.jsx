@@ -15,15 +15,22 @@ export default function VehicleProfile({
   count,
 }) {
   return (
-    <div className="vehicle-card">
-      <Card style={{ width: "18rem" }}>
+    <div>
+      <Card className="vehicle-card" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={image} />
+        <hr />
         <h3>Brand: {brand}</h3>
+        <hr />
         <p>Model: {model}</p>
+        <hr />
         <p>Construction year: {year}</p>
+        <hr />
         <p>Fuel type: {type}</p>
+        <hr />
         <p>Number of seats: {seats}</p>
+        <hr />
         <p>Price per day: {price}</p>
+        <hr />
         <p>Available vehicles: {count}</p>
       </Card>
     </div>

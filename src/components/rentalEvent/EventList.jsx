@@ -19,19 +19,20 @@ export default function EventList() {
   return (
     <div>
       <h2>Rent Event</h2>
-      {rent.map((rent) => {
-        return (
-          <EventProfile
-            key={rent.id}
-            start={rent.startDate}
-            end={rent.endDate}
-            vehicle={rent.vehicle}
-            customer={rent.customer}
-          />
-        );
-      })}
-
-      <Link>
+      <div className="event-card-div">
+        {rent.map((rent) => {
+          return (
+            <EventProfile
+              key={rent.id}
+              start={rent.startDate}
+              end={rent.endDate}
+              vehicle={rent.vehicle}
+              customer={rent.customer}
+            />
+          );
+        })}
+      </div>
+      <Link to="/addevent">
         <Button variant="secondary">ADD EVENT</Button>
       </Link>
     </div>

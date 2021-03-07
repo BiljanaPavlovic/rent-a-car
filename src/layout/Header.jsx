@@ -4,6 +4,7 @@ import React from "react";
 import "./header.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -22,11 +23,13 @@ export default function Header() {
         <div className="content">
           <Row>
             <Col>
-              <img
-                src="/rent-a-car/img/logo.png"
-                alt="rent-a-car logo"
-                className="logo-img"
-              />
+              <Link to="/">
+                <img
+                  src="/rent-a-car/img/logo.png"
+                  alt="rent-a-car logo"
+                  className="logo-img"
+                />
+              </Link>
             </Col>
             <Col>
               {" "}

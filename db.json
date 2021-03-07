@@ -2,7 +2,7 @@
   "vehicles": [
     {
       "id": 1,
-      "brand" : "BMW",
+      "brand": "BMW",
       "model": "xy",
       "year": "2020",
       "type": "xyxy223",
@@ -10,52 +10,71 @@
       "image": "https://www.bmw-stefanovic.rs/media/series/series_3/bmw-3-series-sedan.png",
       "price": 200,
       "count": 5
-    
     },
     {
-      "id": 1,
-      "brand" : "BMW",
-      "model": "xy",
-      "year": "2020",
-      "type": "xyxy223",
-      "seats": "5",
-      "image": "https://www.bmw-stefanovic.rs/media/series/series_3/bmw-3-series-sedan.png",
-      "price": 200,
-      "count": 5
-    
+      "id": "2",
+      "brand": "Tesla",
+      "model": "Model y",
+      "year": "2020.",
+      "type": "y",
+      "seats": "4",
+      "image": "https://media.ed.edmunds-media.com/tesla/model-y/2020/oem/2020_tesla_model-y_4dr-suv_performance_fq_oem_1_1600.jpg",
+      "price": "300",
+      "count": "3"
     },
     {
-      "id": 1,
-      "brand" : "BMW",
-      "model": "xy",
+      "id": "3",
+      "brand": "Mercedes",
+      "model": "Mercedes-benz",
       "year": "2020",
-      "type": "xyxy223",
-      "seats": "5",
-      "image": "https://www.bmw-stefanovic.rs/media/series/series_3/bmw-3-series-sedan.png",
-      "price": 200,
-      "count": 5
-    
+      "type": "a",
+      "seats": "4",
+      "image": "https://dmotion.rs/wp-content/uploads/2019/09/mercedes-benz-vision-eqs-3.jpg",
+      "price": "500",
+      "count": "2"
     }
   ],
   "customers": [
     {
       "id": 1,
-      "name": "Pera",
-      "email": "pera@p.com",
+      "name": "John",
+      "email": "john@p.com",
       "phone": 12345
     },
     {
-      "id": 2,
-      "name": "Jova",
-      "email": "jova@p.com",
-      "phone": 12345
+      "id": "2",
+      "name": "Dou",
+      "email": "dou@d.com",
+      "phone": "789"
+    },
+    {
+      "id": "3",
+      "name": "Michael",
+      "email": "michael@m.com",
+      "phone": "963"
     }
   ],
-  "events": [{
-    "id": 1,
-    "startDate": "06.03",
-    "endDate": "07.03.",
-    "vehicle": "BMW",
-    "customer": "Pera"
-  }]
+  "events": [
+    {
+      "id": 1,
+      "startDate": "06.03",
+      "endDate": "07.03.",
+      "vehicle": "BMW",
+      "customer": "Pera"
+    },
+    {
+      "id": "2",
+      "startDate": "07.03.",
+      "endDate": "10.03.",
+      "vehicle": "Tesla",
+      "customer": "Michael"
+    },
+    {
+      "id": "3",
+      "startDate": "07.03.",
+      "endDate": "15.03.",
+      "vehicle": "Tesla",
+      "customer": "Georg"
+    }
+  ]
 }
